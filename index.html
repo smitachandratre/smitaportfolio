@@ -4,8 +4,6 @@
 <head>
 
     <!----Analytics Start--->
-     
-
 
 
     <!----Analytics End--->
@@ -15,7 +13,8 @@
     <title>Smita Chandratre | Portfolio | Designer | Developer | Motion Graphics | Web Designer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chaitanya Chandartre Designer Developer Animator" />
-    <meta name="keywords" content="chaitanya, chandratre, portfolio, web designer, web developer, animator, motion graphics artist, nasik, maharashtra, india" />
+    <meta name="keywords"
+        content="chaitanya, chandratre, portfolio, web designer, web developer, animator, motion graphics artist, nasik, maharashtra, india" />
     <meta content="chaitanya chandartre" name="author" />
     <!-- favicon -->
     <!--<link rel="shortcut icon" href="images/favicon.ico">-->
@@ -36,131 +35,157 @@
     <link href="css/icons.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-<!--Tab Style start-->
+    <!--Tab Style start-->
 
-<style>
-    #photos {
-/* Prevent vertical gaps */
-line-height: 0;
+    <style>
+        #photos {
+            /* Prevent vertical gaps */
+            line-height: 0;
 
--webkit-column-count: 4;
--webkit-column-gap:   0;
--moz-column-count:    4;
--moz-column-gap:      0px;
-column-count:         4;
-column-gap:           0px;    
-}
+            -webkit-column-count: 4;
+            -webkit-column-gap: 0;
+            -moz-column-count: 4;
+            -moz-column-gap: 0px;
+            column-count: 4;
+            column-gap: 0px;
+        }
 
-#photos img, video {
-/* Just in case there are inline attributes */
-width: 100% !important;
-height: auto !important;
-padding: 5px; 
-/*-webkit-column-break-inside: avoid;
+        #photos img,
+        video {
+            /* Just in case there are inline attributes */
+            width: 100% !important;
+            height: auto !important;
+            padding: 5px;
+            /*-webkit-column-break-inside: avoid;
 -webkit-backface-visibility: hidden;*/
 
-}
+        }
 
 
 
 
 
-@media (max-width: 1200px) {
-#photos, #iframe {
--moz-column-count:    4;
--webkit-column-count: 4;
-column-count:         4;
-}
+        @media (max-width: 1200px) {
 
-#iframe { padding: 5px; }
-}
-@media (max-width: 1000px) {
-#photos, #iframe {
--moz-column-count:    3;
--webkit-column-count: 3;
-column-count:         3;
-}
-#iframe { padding: 5px; }
-}
-@media (max-width: 800px) {
-#photos, #iframe {
--moz-column-count:    2;
--webkit-column-count: 2;
-column-count:         2;
-}
-#iframe { padding: 5px; }
-}
-@media (max-width: 400px) {
-#photos, #iframe {
--moz-column-count:    1;
--webkit-column-count: 1;
-column-count:         1;
-}
-#iframe { padding: 5px; }
-}
+            #photos,
+            #iframe {
+                -moz-column-count: 4;
+                -webkit-column-count: 4;
+                column-count: 4;
+            }
 
+            #iframe {
+                padding: 5px;
+            }
+        }
 
-/* Style the tab */
-.tab {
-width: 100%;
-overflow: hidden;
-border: 1px solid #ccc;
-background-color: #6d62fd;
-box-shadow: 0 4px 18px rgba(52, 58, 64, 0.05);
+        @media (max-width: 1000px) {
 
-}
+            #photos,
+            #iframe {
+                -moz-column-count: 3;
+                -webkit-column-count: 3;
+                column-count: 3;
+            }
 
-/* Style the buttons inside the tab */
-.tab button {
-background-color: inherit;
-float: left;
-border: none;
-outline: none;
-cursor: pointer;
-padding: 14px 16px;
-transition: 0.3s;
-font-size: 13px;  color:white !important;
-text-transform: uppercase;
-}
+            #iframe {
+                padding: 5px;
+            }
+        }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-background-color:rgb(109,120,253);
-}
+        @media (max-width: 800px) {
 
-/* Create an active/current tablink class */
-.tab button.active {
+            #photos,
+            #iframe {
+                -moz-column-count: 2;
+                -webkit-column-count: 2;
+                column-count: 2;
+            }
 
-}
+            #iframe {
+                padding: 5px;
+            }
+        }
 
-/* Style the tab content */
-.tabcontent {
-width: 100%;
-display: none;
-padding: 6px 12px;
-border-top: none;
-}
+        @media (max-width: 400px) {
 
-.tabcontent img:hover{box-shadow:1px 0px 5px #000000; opacity: 0.5; transition-property: opacity, box-shadow; transition-duration: 0.5s;}
+            #photos,
+            #iframe {
+                -moz-column-count: 1;
+                -webkit-column-count: 1;
+                column-count: 1;
+            }
+
+            #iframe {
+                padding: 5px;
+            }
+        }
 
 
-</style>
+        /* Style the tab */
+        .tab {
+            width: 100%;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #6d62fd;
+            box-shadow: 0 4px 18px rgba(52, 58, 64, 0.05);
+
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 13px;
+            color: white !important;
+            text-transform: uppercase;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: rgb(109, 120, 253);
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {}
+
+        /* Style the tab content */
+        .tabcontent {
+            width: 100%;
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+        }
+
+        .tabcontent img:hover {
+            box-shadow: 1px 0px 5px #000000;
+            opacity: 0.5;
+            transition-property: opacity, box-shadow;
+            transition-duration: 0.5s;
+        }
+    </style>
 
 
-<!--Tab Style End-->
+    <!--Tab Style End-->
 
 </head>
 
 <body>
 
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light" >
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light">
         <div class="container">
             <!-- LOGO -->
             <a href="#" class="logo">
                 <img src="images/logo-dark.png" alt="" class="logo-light" height="32" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="remixicon-menu-fill"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -169,7 +194,7 @@ border-top: none;
                         <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">ABOUT SMITA</a>
                     </li>
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Portfolio</a>
@@ -177,7 +202,7 @@ border-top: none;
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
-                     
+
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -202,7 +227,8 @@ border-top: none;
                 <div class="col-lg-10">
                     <div class="text-center hero-6-content">
                         <!--<i class="pe-7s-diamond h1 text-purple hero-6-title-icon"></i>-->
-                        <h1 class="text-dark hero-6-title font-weight-medium mb-4 mt-5 line-height-1_4">Smita Chandratre</h1>
+                        <h1 class="text-dark hero-6-title font-weight-medium mb-4 mt-5 line-height-1_4">Smita Chandratre
+                        </h1>
                         <p class="text-muted w-75 mx-auto mb-5">Graphic and Web Designer - Developer
                             based by the Nasik Maharashtra India</p>
                         <a href="#about"><button type="button" class="btn btn-purple">About Me</button></a>
@@ -227,15 +253,22 @@ border-top: none;
                 <div class="col-lg-12">
                     <div class="text-center title mb-4">
                         <h5 class="font-weight-bold text-uppercase text-dark">About Me </h5>
-                        <p class="text-muted" style="text-align: left;">Have more than 4 years of experience in Graphic and Web Designing like creating Brochures, Product Catalogues, Flyers, Web Templates, Exhibition Posters, Designing Email Campaigns, Magazine Advertisements, Standees, Banners etc.</p>
+                        <p class="text-muted" style="text-align: left;">Have more than 4 years of experience in Graphic
+                            and Web Designing like creating Brochures, Product Catalogues, Flyers, Web Templates,
+                            Exhibition Posters, Designing Email Campaigns, Magazine Advertisements, Standees, Banners
+                            etc.</p>
 
-                        <p class="text-muted">Have more than 4 years of experience in Design and Produce Conceptual Audio Video Presentation  AV PROMOS  including Video Editing, Motion graphics  </p>
-                        <p class="text-muted">Have more than 2 years of experince in Web Development like create HTML Template using HTML5, CSS3  </p>
-                        <p class="text-muted">Have used Softwares - Adobe Photoshop, Adobe Illustrator, Adobe Dreamweaver, Adobe Premiere Pro, Adobe After Effects, Adobe Audition, Corel Draw  </p>
-                        <p class="text-muted">Completed B.sc Chemistry, Diploma in Graphic and Web Design and Diploma in Web Development </p>
-                    
+                        <p class="text-muted">Have more than 4 years of experience in Design and Produce Conceptual
+                            Audio Video Presentation AV PROMOS including Video Editing, Motion graphics </p>
+                        <p class="text-muted">Have more than 2 years of experince in Web Development like create HTML
+                            Template using HTML5, CSS3 </p>
+                        <p class="text-muted">Have used Softwares - Adobe Photoshop, Adobe Illustrator, Adobe
+                            Dreamweaver, Adobe Premiere Pro, Adobe After Effects, Adobe Audition, Corel Draw </p>
+                        <p class="text-muted">Completed B.sc Chemistry, Diploma in Graphic and Web Design and Diploma in
+                            Web Development </p>
 
-            
+
+
 
                     </div>
                 </div>
@@ -246,8 +279,9 @@ border-top: none;
                     <div class="service-box mt-4">
                         <i class="pe-7s-display2 text-purple h1 service-icon"></i>
                         <h5 class="text-dark font-weight-medium service-title mb-3 mt-5">Graphic Design</h5>
-                        <p class="text-muted mb-4 f-15">Brochures, Product Catalogues, Flyers, Exhibition Posters, Magazine Advertisements, Packaging Designs, Standees, Banners</p>
-                        
+                        <p class="text-muted mb-4 f-15">Brochures, Product Catalogues, Flyers, Exhibition Posters,
+                            Magazine Advertisements, Packaging Designs, Standees, Banners</p>
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -263,19 +297,20 @@ border-top: none;
                         <i class="pe-7s-note text-purple h1 service-icon"></i>
                         <h5 class="text-dark font-weight-medium service-title mb-3 mt-5">Web Development</h5>
                         <p class="text-muted mb-4 f-15"> Have knowledge of HTML5, CSS3, psd to html,</p><br><br>
-                         
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-box mt-4">
                         <i class="pe-7s-camera text-purple h1 service-icon"></i>
                         <h5 class="text-dark font-weight-medium service-title mb-3 mt-5">Video Production</h5>
-                        <p class="text-muted mb-4 f-15">Design and Produce Conceptual Audio Video Presentation AV PROMOS ,Video Editing, Motion graphics</p>
-                         
+                        <p class="text-muted mb-4 f-15">Design and Produce Conceptual Audio Video Presentation AV PROMOS
+                            ,Video Editing, Motion graphics</p>
+
                     </div>
                 </div>
-                 
-                
+
+
             </div>
         </div>
     </section>
@@ -295,19 +330,19 @@ border-top: none;
 
             <!--Tab Start-->
 
-            
+
             <div class="row">
                 <div class="tab">
                     <button class="tablinks" onclick="openCity(event, 'pos')">Posters</button>
                     <button class="tablinks" onclick="openCity(event, 'web')">Web UI and EDM and Social Media</button>
                     <button class="tablinks" onclick="openCity(event, 'cat')">Catalogues </button>
                     <button class="tablinks" onclick="openCity(event, 'vdo')">Motion Graphics </button>
-                    
-                  </div>
-                  
-                  <div id="pos" class="tabcontent" style="display: block;">
+
+                </div>
+
+                <div id="pos" class="tabcontent" style="display: block;">
                     <section id="photos">
-                        <img src="images/type-1/1.jpg" alt="poster" >
+                        <img src="images/type-1/1.jpg" alt="poster">
                         <img src="images/type-1/2.jpg" alt="poster">
                         <img src="images/type-1/3.jpg" alt="poster">
                         <img src="images/type-1/4.jpg" alt="poster">
@@ -330,114 +365,114 @@ border-top: none;
                         <img src="images/type-1/21.jpg" alt="poster">
                         <img src="images/type-1/22.jpg" alt="poster">
                         <img src="images/type-1/23.jpg" alt="poster">
-                        
-                      </section>
-                  </div>
-                  
-                  <div id="web" class="tabcontent">
-                    <section id="photos">
-                        
-                        <img src="images/type-2/1.jpg" >
-                        <img src="images/type-2/2.jpg" >
-                        <img src="images/type-2/3.jpg" >
-                        <img src="images/type-2/4.jpg" >
-                        <img src="images/type-2/5.jpg" >
-                        <img src="images/type-2/6.jpg" >
-                        <img src="images/type-2/7.jpg" >
-                        <img src="images/type-2/8.jpg" >
-                        <img src="images/type-2/9.jpg" >
-                        <img src="images/type-2/10.jpg" >
-                        <img src="images/type-2/11.jpg" >
-                        <img src="images/type-2/12.jpg" >
-                        <img src="images/type-2/13.jpg" >
-                        <img src="images/type-2/14.jpg" >
-                        <img src="images/type-2/15.jpg" >
-                        <img src="images/type-2/16.jpg" >
-                        <img src="images/type-2/17.jpg" >
-                        <img src="images/type-2/18.jpg" >
-                        <img src="images/type-2/19.jpg" >
-                        <img src="images/type-2/20.jpg" >
-                        <img src="images/type-2/21.jpg" >
-                        <img src="images/type-2/22.jpg" >
-                        <img src="images/type-2/23.jpg" >
-                        <img src="images/type-2/24.jpg" >
-                        <img src="images/type-2/25.jpg" >
-                        <img src="images/type-2/26.jpg" >
-                        <img src="images/type-2/27.jpg" >
-                        <img src="images/type-2/28.jpg" >
-                        <img src="images/type-2/29.jpg" >
-                        <img src="images/type-2/30.jpg" >
-                        
-                      </section>
-                  </div>
-                  
-                  <div id="cat" class="tabcontent">
-                    <section id="photos">
-                        <img src="images/type-4/1.jpg" >
-                        <img src="images/type-4/2.jpg" >
-                        <img src="images/type-4/3.jpg" >
-                        <img src="images/type-4/4.jpg" >
-                        <img src="images/type-4/5.jpg" >
-                        <img src="images/type-4/6.jpg" >
-                        <img src="images/type-4/7.jpg" >
-                        <img src="images/type-4/8.jpg" >
-                        <img src="images/type-4/9.jpg" >
-                        <img src="images/type-4/10.jpg" >
-                        <img src="images/type-4/11.jpg" >
+
                     </section>
-                  </div>
+                </div>
 
-                  <div id="vdo" class="tabcontent">
+                <div id="web" class="tabcontent">
                     <section id="photos">
-                         <video controls width="100%" style="max-width: 300px;" >
-                             <source src="images/type-3/1.mp4" type="video/mp4"> 
-                         </video>
 
-                         <video controls width="100%" style="max-width: 300px;" >
-                            <source src="images/type-3/2.mp4" type="video/mp4"> 
+                        <img src="images/type-2/1.jpg">
+                        <img src="images/type-2/2.jpg">
+                        <img src="images/type-2/3.jpg">
+                        <img src="images/type-2/4.jpg">
+                        <img src="images/type-2/5.jpg">
+                        <img src="images/type-2/6.jpg">
+                        <img src="images/type-2/7.jpg">
+                        <img src="images/type-2/8.jpg">
+                        <img src="images/type-2/9.jpg">
+                        <img src="images/type-2/10.jpg">
+                        <img src="images/type-2/11.jpg">
+                        <img src="images/type-2/12.jpg">
+                        <img src="images/type-2/13.jpg">
+                        <img src="images/type-2/14.jpg">
+                        <img src="images/type-2/15.jpg">
+                        <img src="images/type-2/16.jpg">
+                        <img src="images/type-2/17.jpg">
+                        <img src="images/type-2/18.jpg">
+                        <img src="images/type-2/19.jpg">
+                        <img src="images/type-2/20.jpg">
+                        <img src="images/type-2/21.jpg">
+                        <img src="images/type-2/22.jpg">
+                        <img src="images/type-2/23.jpg">
+                        <img src="images/type-2/24.jpg">
+                        <img src="images/type-2/25.jpg">
+                        <img src="images/type-2/26.jpg">
+                        <img src="images/type-2/27.jpg">
+                        <img src="images/type-2/28.jpg">
+                        <img src="images/type-2/29.jpg">
+                        <img src="images/type-2/30.jpg">
+
+                    </section>
+                </div>
+
+                <div id="cat" class="tabcontent">
+                    <section id="photos">
+                        <img src="images/type-4/1.jpg">
+                        <img src="images/type-4/2.jpg">
+                        <img src="images/type-4/3.jpg">
+                        <img src="images/type-4/4.jpg">
+                        <img src="images/type-4/5.jpg">
+                        <img src="images/type-4/6.jpg">
+                        <img src="images/type-4/7.jpg">
+                        <img src="images/type-4/8.jpg">
+                        <img src="images/type-4/9.jpg">
+                        <img src="images/type-4/10.jpg">
+                        <img src="images/type-4/11.jpg">
+                    </section>
+                </div>
+
+                <div id="vdo" class="tabcontent">
+                    <section id="photos">
+                        <video controls width="100%" style="max-width: 300px;">
+                            <source src="images/type-3/1.mp4" type="video/mp4">
                         </video>
-                        <video controls width="100%" style="max-width: 300px;" >
-                            <source src="images/type-3/3.mp4" type="video/mp4"> 
+
+                        <video controls width="100%" style="max-width: 300px;">
+                            <source src="images/type-3/2.mp4" type="video/mp4">
                         </video>
-                  </div>
+                        <video controls width="100%" style="max-width: 300px;">
+                            <source src="images/type-3/3.mp4" type="video/mp4">
+                        </video>
+                </div>
 
-                  
 
-                  
-                  
-                  <script>
-                  function openCity(evt, cityName) {
-                    var i, tabcontent, tablinks;
-                    tabcontent = document.getElementsByClassName("tabcontent");
-                    for (i = 0; i < tabcontent.length; i++) {
-                      tabcontent[i].style.display = "none";
+
+
+
+                <script>
+                    function openCity(evt, cityName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
                     }
-                    tablinks = document.getElementsByClassName("tablinks");
-                    for (i = 0; i < tablinks.length; i++) {
-                      tablinks[i].className = tablinks[i].className.replace(" active", "");
-                    }
-                    document.getElementById(cityName).style.display = "block";
-                    evt.currentTarget.className += " active";
-                  }
-                  </script>
+                </script>
             </div>
 
             <div class="row ">
-                 
+
             </div>
 
 
             <!----Tab End--->
 
-            
+
         </div>
     </section>
 
-    
 
-    
 
-    
+
+
+
 
     <!-- CTA START -->
     <section class="section position-relative bg-gradient" id="contact">
@@ -447,8 +482,9 @@ border-top: none;
                 <div class="col-lg-6">
                     <div class="text-center">
                         <h2 class="text-white mb-3">Contact Me</h2>
-                        <a href="mailto:smitachandratre@gmail.com" class="btn btn-light mt-4">smitachandratre@gmail.com</a>
-                         
+                        <a href="mailto:smitachandratre@gmail.com"
+                            class="btn btn-light mt-4">smitachandratre@gmail.com</a>
+
                     </div>
                 </div>
             </div>
@@ -456,7 +492,7 @@ border-top: none;
     </section>
     <!-- CTA END -->
 
-    
+
 
     <!-- javascript -->
     <script src="js/jquery.min.js"></script>
@@ -474,4 +510,5 @@ border-top: none;
     <script src="js/app.js"></script>
 
 </body>
+
 </html>
